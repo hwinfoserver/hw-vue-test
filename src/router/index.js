@@ -12,10 +12,6 @@ export const constantRoutes = [
   {
     path: '/',
     component: () => import('@/views/home')
-  },
-  {
-    path: '/test',
-    component: () => import('@/views/test')
   }
 ]
 
